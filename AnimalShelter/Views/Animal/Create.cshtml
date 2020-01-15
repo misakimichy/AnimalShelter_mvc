@@ -10,9 +10,6 @@
     @Html.LabelFor(model => model.Name)
     @Html.TextBoxFor(model => model.Name)
     <hr>
-    @Html.LabelFor(model => model.Description)
-    @Html.TextBoxFor(model => model.Description)
-    <hr>
     @Html.LabelFor(model => model.Species)
     <input type = "text" list = "Species" name="Species"> 
         <datalist id = "Species">
@@ -37,7 +34,7 @@
     <input type="date" name="Date">
    
     <hr>
-    <input type="submit" value="Add new Animal"/>
+    <input type="submit" value="Add new Animal" class="btn btn-info"/>
 }
 
 <p>@Html.ActionLink("Show all animals", "Index")</p>

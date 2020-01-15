@@ -16,22 +16,9 @@ namespace AnimalShelter.Controllers
 
         public ActionResult Index()
         {
-            // Using LINQ to order the animal list by ascending the name alphabetically
             List<Animal> model = _db.Animals.ToList();
-            IEnumerable<Animal> query = model.OrderBy(animal => animal.Name);
-            return View(query.ToList());
+            return View(model);
         }
-
-        public ActionResult IndexBySpecies()
-        {
-            List<Animal> model = _db.Animals.ToList();
-            IEnumerable<Animal> query =
-                from animal in model
-                orderby animal.Species ascending
-                select animal;
-            return View("Index", query.ToList());
-        }
-
         public ActionResult Create()
         {
             return View();

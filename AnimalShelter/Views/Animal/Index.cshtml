@@ -1,14 +1,13 @@
 @{
   Layout = "_Layout";
 }
-
 @using AnimalShelter.Models;
 @model List<AnimalShelter.Models.Animal>;
 
 <div class="card">
     <h1>Animals</h1>
     <div class="card-header">
-    <p>Sort By:    @Html.ActionLink("Name ", "Index") | @Html.ActionLink("Date ", "IndexByDate") |@Html.ActionLink("Breed ", "IndexByBreed") | @Html.ActionLink("Gender ", "IndexByGender") |@Html.ActionLink("Species ", "IndexBySpecies")</p>
+    <p>Sort By: @Html.ActionLink("Name", "Index") | @Html.ActionLink("Date", "IndexByDate") |@Html.ActionLink("Breed", "IndexByBreed") | @Html.ActionLink("Gender", "IndexByGender") |@Html.ActionLink("Species", "IndexBySpecies")</p>
     </div>
         @if (@Model.Count == 0)
         {

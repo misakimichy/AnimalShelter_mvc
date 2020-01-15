@@ -14,7 +14,7 @@ namespace AnimalShelter
     {
       var builder = new ConfigurationBuilder()
         .SetBasePath(env.ContentRootPath)
-          .AddJsonFile("appsettings.json");
+        .AddJsonFile("appsettings.json");
       Configuration = builder.Build();
     }
 
@@ -31,6 +31,7 @@ namespace AnimalShelter
     public void Configure(IApplicationBuilder app)
     {
       app.UseDeveloperExceptionPage();
+      app.UseStaticFiles();
 
       app.UseMvc(routes =>
       {
