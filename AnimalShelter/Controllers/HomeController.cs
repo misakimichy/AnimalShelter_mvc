@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
-using Project.Models;
+using AnimalShelter.Models;
 
-namespace Project.Controllers
+namespace  AnimalShelter.Controllers
 {
-    public class ClassNameController : Controller
+    public class HomeController : Controller
     {
-        [HttpGet("/className")]
+        [HttpGet("/")]
         public ActionResult Index()
         {
             return View();

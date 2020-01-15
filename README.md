@@ -1,15 +1,18 @@
-# TDD Starter for C#
-Use this repo to start new projects.
+# Animal Shelter
 
-# Project
-
-#### _C#, .NET: Project, mm/dd/2020_
+#### _C#, .NET: Animal Shelter, 01/14/2020_
 
 ## Description
-Description of this application.
+Make a program for an animal shelter to track the animals in their facility based on animal type (such as cat or dog)
 
 ## Application should have:
-- 
+- Add types of animals to the system. `type` should be a column on the animals table. A type could be a cat, dog, bunny or any other animal.
+
+- Add an animal to the system. An animal should have a name, gender, date of admittance, and breed. When it gets added to the system, it should be added as a particular type.
+
+- List animals by breed or type alphabetically.
+
+- List animals starting with the ones who have been in the shelter the longest
 
 ## Spec
 | Spec | User input | Expected output |
@@ -20,12 +23,12 @@ Description of this application.
 ## Installation:
 1. Clone this repo:
 ```
-$ git clone url-of-this-repo
+$ git clone https://github.com/misakimichy/AnimalShelter.Solution.git
 ```
 
 2. Use the following codes:
 
-a) Command to build the project. Run this in Project directory:
+a) Command to build the Animal Shelter. Run this in Project directory:
 ```
 $ dotnet build && $ dotnet run
 ```
@@ -43,7 +46,7 @@ $ dotnet restore && dotnet test
  misaki.koonce@gmail.com
 
 ## Technologies Used
-_Git, GitHub, CSS, Bootstrap, C# and ASP.NET Core MVC
+_Git, GitHub, CSS, Bootstrap, C#, ASP.NET Core MVC and Entity
 
 ## License
 Copyright © 2020 under the MIT License

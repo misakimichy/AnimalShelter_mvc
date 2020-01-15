@@ -1,0 +1,10 @@
+  Writing /var/folders/1p/cfpcvh9s17jckcp11wczr6mw0000gp/T/tmpG4Vtox.tmp
+info : Adding PackageReference for package 'Microsoft.EntityFrameworkCore' into project '/Users/misakimichy/src/AnimalShelter.Solution/AnimalShelter/AnimalShelter.csproj'.
+log  : Restoring packages for /Users/misakimichy/src/AnimalShelter.Solution/AnimalShelter/AnimalShelter.csproj...
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/index.json
+error: Unable to find package Microsoft.EntityFrameworkCore with version (>= 3.1.2)
+error:   - Found 61 version(s) in nuget.org [ Nearest version: 3.1.1 ]
+error: Version conflict detected for Microsoft.EntityFrameworkCore.Relational. Install/reference Microsoft.EntityFrameworkCore.Relational 3.1.0 directly to project AnimalShelter to resolve this issue. 
+error:  AnimalShelter -> Pomelo.EntityFrameworkCore.MySql 3.1.0 -> Microsoft.EntityFrameworkCore.Relational (>= 3.1.0) 
+error:  AnimalShelter -> Microsoft.AspNetCore.App 2.2.0 -> Microsoft.EntityFrameworkCore.Relational (>= 2.2.0 && < 2.3.0).
+error: Package 'Microsoft.EntityFrameworkCore' is incompatible with 'all' frameworks in project '/Users/misakimichy/src/AnimalShelter.Solution/AnimalShelter/AnimalShelter.csproj'.

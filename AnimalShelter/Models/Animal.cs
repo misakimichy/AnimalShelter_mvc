@@ -1,10 +1,10 @@
 using System;
 
-namespace Project.Models
+namespace AnimalShelter.Models
 {
-    public class ClassName
+    public class Animal
     {
-        public ClassName()
+        public Animal()
         {
             // Create constructor
         }

@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Project.Models;
+using AnimalShelter.Models;
 
-namespace Project.Tests
+namespace AnimalShelter.Tests
 {
     [TestClass]
-    public class ProjectTest
+    public class AnimalShelterTest
     {
         [TestMethod]
         public void MethodName_DescriptionOfBehavior_ExpectedResult()
