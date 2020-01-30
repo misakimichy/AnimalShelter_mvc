@@ -1,6 +1,6 @@
 # Animal Shelter
 
-#### _C#, .NET: Animal Shelter, 01/14/2020_
+#### _C#, .NET: Animal Shelter, 01/29/2020_
 
 ## Description
 Make a program for an animal shelter to track the animals in their facility based on animal type (such as cat or dog)
@@ -15,9 +15,9 @@ Make a program for an animal shelter to track the animals in their facility base
 - List animals starting with the ones who have been in the shelter the longest
 
 ## Spec
-| Spec | User input | Expected output |
-| :------------- | :------------- | :------------- |
-| Spec description | Add user input | Add expected UI output |
+Has two application
+ - AnimalShelterAPI (currently updating)
+ - AnimalShelterMVC
 
 
 ## Installation:
@@ -46,7 +46,7 @@ $ dotnet restore && dotnet test
  misaki.koonce@gmail.com
 
 ## Technologies Used
-_Git, GitHub, CSS, Bootstrap, C#, ASP.NET Core MVC and Entity
+Git, GitHub, CSS, Bootstrap, C#, ASP.NET Core MVC and Entity Framework
 
 ## License
 Copyright © 2020 under the MIT License
